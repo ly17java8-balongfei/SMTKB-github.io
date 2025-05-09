@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMT上板看板</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="dashboard">
+        <h1>SMT上板看板</h1>
+        <div class="board-section">
+            <h2>生产状态</h2>
+            <p id="production-status">运行中</p>
+        </div>
+        <div class="board-section">
+            <h2>设备状态</h2>
+            <p id="equipment-status">正常</p>
+        </div>
+        <div class="board-section">
+            <h2>今日生产数量</h2>
+            <p id="production-count">1000</p>
+        </div>
+        <div class="board-section">
+            <h2>实时错误率</h2>
+            <p id="error-rate">0.5%</p>
+        </div>
+        <button id="refresh-btn">刷新数据</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
